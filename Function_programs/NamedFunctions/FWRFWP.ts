@@ -1,9 +1,10 @@
 function studentInfo(stdId : number , stdName : string) : string 
 {
- return "studentId :" + stdId + "studentName :" + stdName;
+ return("" +stdId  + "" + stdName);
 }
-let result : string = studentInfo(25, "Priya")
-console.log(result)
+ let result = studentInfo(25, "Priya")
+ console.log(result)
+
 
 
 

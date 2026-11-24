@@ -5,15 +5,15 @@ function myData(name : string, DOB ?: number )//'?' represents optional
 }
 myData("Mahi")
 
-function myData(name : string, DOB ?: number )//'?' represents optional
+function myDay(name : string, DOB ?: number )//'?' represents optional
 {
     console.log("This is myinformation :" + DOB)//undefined
 
 }
-myData("Mahi" )//DOB is optional
+myDay("Mahi" )//DOB is optional
 
 
-function myData(name : string, DOB : number)
+function Data(name : string, DOB : number)
 {
     if(DOB==undefined)
     {
@@ -25,4 +25,4 @@ function myData(name : string, DOB : number)
     }
 
 }
-myData("Bhanu", 1232020)
+Data("Bhanu", 1232020)
